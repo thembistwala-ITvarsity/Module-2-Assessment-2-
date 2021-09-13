@@ -1,0 +1,298 @@
+body{
+    background-color: rgb(169, 238, 167);
+    padding: 0;
+    margin: 0;
+    font-family: Times, serif;
+
+}
+
+/*================== HEADER ==================*/
+
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('images/white-bg.jpg');
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+
+}/*================== TOP-TABS ==================*/
+
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color:rgba(41, 189, 76, 0.918); ;
+
+}
+
+
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+ /*==================== MAIN-HOME =================*/
+
+ #main-home{
+    margin-top: 120px;
+}
+
+
+
+/*================== BOTTOM-TABS ==================*/
+#tabs-bottom{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   z-index: 500;
+   width: 100%;
+   height: 40px;
+   background-color:rgba(11, 128, 63, 0.849); ;
+}
+
+#tabs-bottom a{
+   float: left;
+   display: block;
+   width: 50%;
+   height: 35px;
+   font-weight: 700;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   padding-top: 12px;
+}
+
+
+/*================== MAIN ==================*/
+
+#main{
+    margin: 119px;
+   
+ }
+ 
+ #content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+ }
+ 
+ #main-map img{
+    width: 100%;
+    
+}
+ 
+ /*================== HOME ==================*/
+
+ #home{
+    background-color: rgba(255, 255, 255, 8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+#home img{
+    width: 30%;
+    
+}
+#home h1,h3{
+    text-align: center;
+    font-family:Times New Roman  ;
+    font-size: larger;
+}
+
+
+
+#home p{
+ text-align: center;
+} 
+ 
+
+ /*================== INFO BOX ==================*/
+
+ a.info-box{
+    text-decoration: none;
+    background: rgba(255,255,255,.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #141414ef;
+
+}
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+
+   /*================== INFO BOX STORES ==================*/
+
+   #info-box-stores{
+    background-color: rgba(255,255,255,.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+#info-box-stores img{
+    width: 20%;
+    height: 20%;
+}
+
+#info-box-stores h2{
+ text-align: center;
+}
+#info-box-stores p{
+ text-align: center;
+
+}
+
+  /*================== INFO BOX MOVIES ==================*/
+
+  #info-box-movies{
+    background-color: rgba(162, 170, 169, 0.473);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+#info-box-movies img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info-box-movies h3{
+    text-align: center;
+}
+
+#info-box-movies h4{
+ text-align: center;
+}
+#info-box-movies p{
+ text-align: center;
+
+}
+
+  /*==================INFO BOX ABOUT ==================*/
+  #info-box-about{
+    background-color: rgba(255,255,255,.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+#info-box-img{
+    width: 50%;
+}
+#info-box-about h3{
+    text-align: center;
+}
+
+#info-box-about p{
+ text-align: left;
+} 
+
+
+ /*==================INFO BOX CONTACT ==================*/
+ #info-box-contact{
+    background-color: rgba(255,255,255,.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+#info-box-contact img{
+    width: 70%;
+    
+}
+#info-box-contact h3{
+    text-align: center;
+}
+
+#info-box-contact h2{
+ text-align: left;
+}
+#info-box-contact p{
+ text-align: center;
+} 
+#info-box-contact ul{
+    box-align: center;
+}
+
+
+  /*================== FORM ==================*/
+  input{
+    width: 50%;
+    height: 25px;
+    margin: 12PX 0;
+    border:#929292 ;
+ 
+}
+textarea{
+    width: 50%;
+    height: 65px;
+    margin: 12px 0;
+    border: #929292;;
+}
+
+.button{
+    display: block;
+    width: 10%;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
